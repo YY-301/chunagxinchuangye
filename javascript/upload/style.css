@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgba(85, 141, 205, 0.81);
+    overflow: hidden;
+}
+.box{
+    position: relative;
+    width:500px;
+    height:550px;
+    background:rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    font-size: 2em;
+    text-align: center;
+    color: white;
+}
+.input-box{
+    position: relative;
+    width: 320px;
+    margin: 30px 0;
+    border-bottom: 2px solid white;
+}
+.input-box .icon{
+    position: absolute;
+    top: 18%;
+    left: -7%;
+    font-size: 1.3em;
+    line-height: 57px;
+    color: white;
+}
+.input-box input{
+    width: 95%;
+    height: 20px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 0.9em;
+    padding: 5% 0 5% 15px;
+}
+.remember-forget{
+    margin: -15px 0 15px;
+    font-size: 0.9em;
+    display: flex;
+    justify-content: space-between;
+}
+.remember-forget label input{
+    accent-color: #00fff7;
+    margin-right: 3px;
+}
+button{
+    width: 100%;
+    height: 45px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+}
+.change{
+    margin-top: 10%;
+    text-align: center;
+}
+.change a{
+    color: white;
+    text-decoration: none;
+}
+.change a:hover{
+    text-decoration: underline;
+}
